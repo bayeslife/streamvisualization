@@ -29,3 +29,6 @@ Edit the src/generator/mongo-generator as required for your projection
 
 The src/processor/statsprocessor has logic for computing averages for individual assets.
 
+## Credits
+
+This timeline source was produced by modifying source originally provided by Eric Glassman at [this codepen](https://codepen.io/manglass/pen/MvLBRz)
