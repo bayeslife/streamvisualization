@@ -1,0 +1,13 @@
+<script>
+
+  const socket = new WebSocket('http://localhost:3000')
+
+  socket.onopen = function(event) {
+
+    socket.onmessage(function (data) {
+      console.log(data);
+      //socket.emit('my other event', { my: 'data' });
+    });
+
+  }
+</script>
